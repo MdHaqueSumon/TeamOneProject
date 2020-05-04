@@ -7,10 +7,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features= {"src/main/resources/FindProperty.feature"},
 		glue = {"com.usa.stepdefination"},
 	    plugin = {"pretty", "html:target/cucumber-reports/cucumber.json",
-		"json:target/cucumber.json"},
-	    dryRun = false,
-		monochrome  = false,
-		strict = false
+		"json:target/cucumber.json"}
+
 		)
 public class Zooplarunner extends AbstractTestNGCucumberTests {
 
